@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import Entry from "./components/Entry";
+
 function App() {
   return (
     <>
-      <h1>This is a React app</h1>
+      <Header />
+      <Entry />
     </>
   );
 }
